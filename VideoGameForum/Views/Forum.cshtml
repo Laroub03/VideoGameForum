@@ -1,0 +1,12 @@
+﻿<h2>Posts</h2>
+
+<ul>
+    @foreach (var post in Model)
+    {
+        <li>
+            <a asp-action="PostDetails" asp-route-id="@post.Id">@post.Title</a> - @post.User.UserName - @post.Date.ToString("yyyy-MM-dd")
+        </li>
+    }
+</ul>
+
+<a asp-action="CreatePost">Create New Post</a>

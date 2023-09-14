@@ -1,0 +1,18 @@
+﻿<h2>@Model.Title</h2>
+<p>Posted by @Model.User.UserName on @Model.Date.ToString("yyyy-MM-dd")</p>
+
+<h3>Comments</h3>
+
+@foreach (var comment in Model.Comments)
+{
+    <div>
+        @comment.Text - @comment.User.UserName - @comment.Date.ToString("yyyy-MM-dd")
+    </div>
+}
+
+<h4>Add Comment</h4>
+<form asp-action="CreateComment" method="post">
+    <input type="hidden" name="postId" value="@Model.Id" />
+    <textarea name="text"></textarea>
+    <button type="submit">Add Comment</button>
+</form>
