@@ -132,3 +132,8 @@ C:/Users/Administrator/source/repos/VideoGameForum/VideoGameForum/obj/Debug/net7
 /Users/emil/Documents/csharp/VideoGameForum/VideoGameForum/obj/Debug/net7.0/VideoGameForum.pdb
 /Users/emil/Documents/csharp/VideoGameForum/VideoGameForum/obj/Debug/net7.0/VideoGameForum.genruntimeconfig.cache
 /Users/emil/Documents/csharp/VideoGameForum/VideoGameForum/obj/Debug/net7.0/ref/VideoGameForum.dll
+/Users/emil/Documents/csharp/VideoGameForum/VideoGameForum/bin/Debug/net7.0/Humanizer.dll
+/Users/emil/Documents/csharp/VideoGameForum/VideoGameForum/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/emil/Documents/csharp/VideoGameForum/VideoGameForum/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+/Users/emil/Documents/csharp/VideoGameForum/VideoGameForum/bin/Debug/net7.0/Mono.TextTemplating.dll
+/Users/emil/Documents/csharp/VideoGameForum/VideoGameForum/bin/Debug/net7.0/System.CodeDom.dll
