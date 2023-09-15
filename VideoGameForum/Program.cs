@@ -11,8 +11,7 @@ builder.Services.AddControllersWithViews();
 // Adding DbContext and Identity services
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
-    new MySqlServerVersion(new Version(8, 0, 21))));
-
+    new MySqlServerVersion(new Version(10, 11, 5))));
 
 
 builder.Services.AddIdentity<AppUser, IdentityRole>()

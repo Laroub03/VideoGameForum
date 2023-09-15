@@ -9,65 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = VideoGameForum
 build_property.RootNamespace = VideoGameForum
-build_property.ProjectDir = C:\Users\Administrator\source\repos\VideoGameForum\VideoGameForum\
+build_property.ProjectDir = /Users/emil/Documents/csharp/VideoGameForum/VideoGameForum/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Administrator\source\repos\VideoGameForum\VideoGameForum
+build_property.MSBuildProjectDirectory = /Users/emil/Documents/csharp/VideoGameForum/VideoGameForum
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Administrator/source/repos/VideoGameForum/VideoGameForum/Views/CreatePost.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlUG9zdC5jc2h0bWw=
+[/Users/emil/Documents/csharp/VideoGameForum/VideoGameForum/Views/CreatePost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3JlYXRlUG9zdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/VideoGameForum/VideoGameForum/Views/EditComment.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdENvbW1lbnQuY3NodG1s
+[/Users/emil/Documents/csharp/VideoGameForum/VideoGameForum/Views/EditComment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRWRpdENvbW1lbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/VideoGameForum/VideoGameForum/Views/Forum.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ydW0uY3NodG1s
+[/Users/emil/Documents/csharp/VideoGameForum/VideoGameForum/Views/Forum.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9ydW0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/VideoGameForum/VideoGameForum/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[/Users/emil/Documents/csharp/VideoGameForum/VideoGameForum/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/VideoGameForum/VideoGameForum/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[/Users/emil/Documents/csharp/VideoGameForum/VideoGameForum/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/VideoGameForum/VideoGameForum/Views/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW4uY3NodG1s
+[/Users/emil/Documents/csharp/VideoGameForum/VideoGameForum/Views/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/VideoGameForum/VideoGameForum/Views/PostDetails.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdERldGFpbHMuY3NodG1s
+[/Users/emil/Documents/csharp/VideoGameForum/VideoGameForum/Views/PostDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/VideoGameForum/VideoGameForum/Views/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXIuY3NodG1s
+[/Users/emil/Documents/csharp/VideoGameForum/VideoGameForum/Views/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/VideoGameForum/VideoGameForum/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/Users/emil/Documents/csharp/VideoGameForum/VideoGameForum/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/VideoGameForum/VideoGameForum/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/Users/emil/Documents/csharp/VideoGameForum/VideoGameForum/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/VideoGameForum/VideoGameForum/Views/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX0xheW91dC5jc2h0bWw=
+[/Users/emil/Documents/csharp/VideoGameForum/VideoGameForum/Views/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/VideoGameForum/VideoGameForum/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/emil/Documents/csharp/VideoGameForum/VideoGameForum/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/VideoGameForum/VideoGameForum/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/Users/emil/Documents/csharp/VideoGameForum/VideoGameForum/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/VideoGameForum/VideoGameForum/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-dudbmyn60c
+[/Users/emil/Documents/csharp/VideoGameForum/VideoGameForum/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-6vh2uqm3ho
