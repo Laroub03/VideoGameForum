@@ -34,18 +34,18 @@ Other users should be able to comment on the post by clicking on the post they w
 
 The admin should be able to click on 3 dots on the right side of the post and choose between just deleting the post or banning the user
 
-# Website flow
+## Website flow
 
 Register/Login page -> Forum page -> comment page
 
-# Testing:
+## Testing:
 
 Ensuring the quality of the web page through appropriate testing, including unit tests and database tests.
 
-# User Input:
+## User Input:
 
 The web page must handle and validate user input to prevent errors or abuse.
 
-# Error Handling & Logging:
+## Error Handling & Logging:
 
 The web page should gracefully handle errors and log relevant data so that any issues can be traced and resolved.
