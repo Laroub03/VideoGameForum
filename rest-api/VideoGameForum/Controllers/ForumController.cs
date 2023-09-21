@@ -9,24 +9,28 @@ namespace VideoGameForum.Controllers
 {
     public class ForumController : Controller
     {
+        // Database context provides access to the database and user manager provides user management functionality
         private readonly ApplicationDbContext _context;
         private readonly UserManager<AppUser> _userManager;
 
-        public ForumController(UserManager<AppUser> userManager)
+        public ForumController(ApplicationDbContext context, UserManager<AppUser> userManager)
         {
+            _context = context;
             _userManager = userManager;
         }
 
-
+        // Endpoint to list all forum posts
         public IActionResult Index()
         {
             var posts = _context.Posts.Include(p => p.User).ToList();
             return View(posts);
         }
 
+        // Endpoint for the create post view
         [HttpGet]
         public IActionResult CreatePost() => View();
 
+        // Endpoint for handling the creation of a new post
         [HttpPost]
         public async Task<IActionResult> CreatePost(PostViewModel model)
         {
@@ -48,6 +52,7 @@ namespace VideoGameForum.Controllers
             return View(model);
         }
 
+        // Endpoint for handling the creation of a comment on a post
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> CreateComment(int postId, string text)
@@ -77,6 +82,7 @@ namespace VideoGameForum.Controllers
             return RedirectToAction("PostDetails", new { id = postId });
         }
 
+        // Endpoint to display details of a specific post along with its comments
         [HttpGet]
         public async Task<IActionResult> PostDetails(int id)
         {
@@ -90,9 +96,10 @@ namespace VideoGameForum.Controllers
                 return NotFound();
             }
 
-            return View(post);  // In the view, you'd iterate over `post.Comments` to display each comment.
+            return View(post);
         }
 
+        // Endpoint for the edit comment view
         [HttpGet]
         public async Task<IActionResult> EditComment(int id)
         {
@@ -102,9 +109,10 @@ namespace VideoGameForum.Controllers
                 return NotFound();
             }
 
-            return View(comment);  // This view would contain a form to edit the comment text.
+            return View(comment);
         }
 
+        // Endpoint for handling the editing of a comment
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> EditComment(int id, Comment updatedComment)
@@ -121,6 +129,7 @@ namespace VideoGameForum.Controllers
             return RedirectToAction("PostDetails", new { id = comment.PostId });
         }
 
+        // Endpoint for handling the deletion of a comment
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteComment(int id)
